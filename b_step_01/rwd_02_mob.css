@@ -1,0 +1,21 @@
+/* rwd_02_mob.css */
+
+/* design data:320px - vw기준 320동일 */
+@meta screen
+        and (max-width: 639px) {
+
+      /* 가로브라우저 320기준 */
+ 
+   #viewBox {height:120px; height:37.5rem; 
+             height: 37.5vw;
+             /* 120/ 320 x 100 */
+             min-height: 7.5rem;
+             max-height: 405px;
+             max-height: 25.3125rem;
+             } 
+
+
+
+/* media end */
+}
+
